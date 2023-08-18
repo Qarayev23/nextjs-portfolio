@@ -7,7 +7,7 @@ import { motion } from "framer-motion";
 function Projects() {
   const projectsData = [
     {
-      image: "/screenshot (2).png",
+      image: "/gamboo.png",
       projectName: "gamboo.io",
       projectTech: [
         "React",
@@ -22,7 +22,7 @@ function Projects() {
       },
     },
     {
-      image: "/screenshot (3).png",
+      image: "/app-gamboo.png",
       projectName: "app.gamboo.io",
       projectTech: [
         "React",
