@@ -26,7 +26,7 @@ function About() {
       <div className="about-grid">
         <div className="about-grid-info">
           <p className="about-grid-info-text">
-          Hi, my name is Habil Abiyev, software developer especialized in web development. I’m a self-taught developer who wants to explore every tech stack.
+          Hi, my name is Nijat Garayev, software developer especialized in web development. I’m a self-taught developer who wants to explore every tech stack.
           </p>
           <p className="about-grid-info-text">
             Here are a few technologies I’ve been working with recently:
