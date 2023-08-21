@@ -158,6 +158,7 @@
       .exp-slider {
         display: flex;
         overflow-x: scroll;
+        gap: 5px;
 
         &::before {
           display: none;
@@ -170,6 +171,8 @@
         &-item {
           height: auto;
           white-space: nowrap;
+          padding: 10px 0;
+          justify-content: center;
         }
       }
     }

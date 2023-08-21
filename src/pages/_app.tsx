@@ -1,7 +1,7 @@
 import "@/scss/globals.css";
 import "@/scss/index.scss";
 import type { AppProps } from "next/app";
-import { Raleway, Fira_Code, Courgette } from "next/font/google";
+import { Raleway, Fira_Code, Felipa } from "next/font/google";
 
 const raleway = Raleway({ subsets: ["latin"] });
 const firaCode = Fira_Code({
@@ -9,7 +9,7 @@ const firaCode = Fira_Code({
   subsets: ["latin"],
 });
 
-const courgette = Courgette({
+const felipa = Felipa({
   weight: ["400"],
   subsets: ["latin"],
 });
@@ -21,7 +21,7 @@ export default function App({ Component, pageProps }: AppProps) {
         :root {
           --raleway: ${raleway.style.fontFamily};
           --fira-code: ${firaCode.style.fontFamily};
-          --courgette: ${courgette.style.fontFamily};
+          --felipa: ${felipa.style.fontFamily};
         }
       `}</style>
       <Component {...pageProps} />;
