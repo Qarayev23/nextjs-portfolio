@@ -7,6 +7,21 @@ import { motion } from "framer-motion";
 function Projects() {
   const projectsData = [
     {
+      image: "/papajohns.png",
+      projectName: "Papa Johns",
+      projectTech: [
+        "Next.js",
+        "Typescript",
+        "Redux Toolkit",
+        "Redux Persist",
+        "Next Auth"
+      ],
+      projectExternalLinks: {
+        github: "https://github.com/Qarayev23/papajohns-next.js",
+        externalLink: "https://papajohns-next-js.vercel.app",
+      },
+    },
+    {
       image: "/gamboo.png",
       projectName: "gamboo.io",
       projectTech: [
@@ -191,7 +206,7 @@ function Projects() {
                   </div>
                 </div>
                 <div className="project-info">
-                  <h3 className="project-info-title">{projectName}</h3>
+                  <Link href={projectExternalLinks.externalLink} target="blank" className="project-info-title">{projectName}</Link>
                   <ul className="project-info-tech-list">
                     {projectTech.map((tech) => (
                       <li className="project-info-tech-list-item" key={tech}>
