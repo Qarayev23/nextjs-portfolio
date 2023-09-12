@@ -56,14 +56,15 @@ function Projects() {
       projectName: "Texnomart",
       projectTech: [
         "React",
+        "Typescript",
         "Redux Toolkit",
-        "Json Server",
+        "RTK Query",
         "Axios",
         "CSS",
       ],
       projectExternalLinks: {
-        github: "https://github.com/Qarayev23/React-texnomart-clone",
-        externalLink: "https://clone-texnomart.netlify.app/",
+        github: "https://github.com/Qarayev23/texnomart",
+        externalLink: "https://texnomart-clone.netlify.app/",
       },
     },
     {
