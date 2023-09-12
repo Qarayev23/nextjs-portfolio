@@ -28,7 +28,7 @@ function Projects() {
         "React",
         "Next.js",
         "Context API",
-        "Axios",
+        "React Bootstrap",
         "SCSS"
       ],
       projectExternalLinks: {
@@ -42,7 +42,7 @@ function Projects() {
       projectTech: [
         "React",
         "Redux Toolkit",
-        "Axios",
+        "Context API",
         "React Bootstrap",
         "CSS",
       ],
