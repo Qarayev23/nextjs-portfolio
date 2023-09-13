@@ -59,8 +59,7 @@ function Projects() {
         "Typescript",
         "Redux Toolkit",
         "RTK Query",
-        "Axios",
-        "CSS",
+        "SCSS",
       ],
       projectExternalLinks: {
         github: "https://github.com/Qarayev23/texnomart",
