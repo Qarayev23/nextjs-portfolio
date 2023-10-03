@@ -22,6 +22,21 @@ function Projects() {
       },
     },
     {
+      image: "/texnomart.png",
+      projectName: "Texnomart",
+      projectTech: [
+        "React",
+        "Typescript",
+        "Redux Toolkit",
+        "RTK Query",
+        "SCSS",
+      ],
+      projectExternalLinks: {
+        github: "https://github.com/Qarayev23/texnomart",
+        externalLink: "https://texnomart-clone.netlify.app/",
+      },
+    },
+    {
       image: "/gamboo.png",
       projectName: "gamboo.io",
       projectTech: [
@@ -49,21 +64,6 @@ function Projects() {
       projectExternalLinks: {
         github: "",
         externalLink: "https://app.gamboo.io/",
-      },
-    },
-    {
-      image: "/texnomart.png",
-      projectName: "Texnomart",
-      projectTech: [
-        "React",
-        "Typescript",
-        "Redux Toolkit",
-        "RTK Query",
-        "SCSS",
-      ],
-      projectExternalLinks: {
-        github: "https://github.com/Qarayev23/texnomart",
-        externalLink: "https://texnomart-clone.netlify.app/",
       },
     },
     {
