@@ -20,7 +20,8 @@ function Experience() {
       start: "Nov 2021",
       end: "Present",
       shortDescription: [
-        "Creating a mobile-first, responsive websites.",
+        "Converting design files and integrate them into web pages.",
+        "Making code improvements to improve performance and fix errors.",
         "Supporting existing projects.",
         "Collaborating with team members to implement new feature developments.",
       ],
@@ -28,13 +29,14 @@ function Experience() {
     {
       name: "Gamboo",
       role: "Frontend Developer",
-      url: "Gamboo.io/",
+      url: "https://gamboo.io/",
       start: "Jun 2022",
       end: "Aug 2022",
       shortDescription: [
         "Creating a new landing page on Next.js.",
         "Supporting existing React app.",
         "Collaborating with team members to implement new feature developments.",
+        "Optimize webpages to increase speed and reduce loading times."
       ],
     },
     {
