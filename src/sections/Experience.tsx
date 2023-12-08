@@ -91,7 +91,7 @@ function Experience() {
               <span>{expereinces[selected].role}</span>
               <span className="exp-details-position-company">
                 &nbsp;@&nbsp;
-                <Link href={expereinces[selected].url} target="blank" className="link">
+                <Link href={expereinces[selected].url} target="_blank" className="link">
                   {expereinces[selected].name}
                 </Link>
               </span>
