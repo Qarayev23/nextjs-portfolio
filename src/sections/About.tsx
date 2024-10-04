@@ -37,11 +37,10 @@ function About() {
             <li className="about-grid-info-list-item">Typescript</li>
             <li className="about-grid-info-list-item">Redux Toolkit</li>
             <li className="about-grid-info-list-item">SCSS</li>
-            <li className="about-grid-info-list-item">Bootstrap</li>
+            <li className="about-grid-info-list-item">RTK Query</li>
             <li className="about-grid-info-list-item">React Query</li>
             <li className="about-grid-info-list-item">HTML</li>
             <li className="about-grid-info-list-item">Javascript</li>
-
           </ul>
         </div>
       </div>

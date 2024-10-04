@@ -7,33 +7,47 @@ import { motion } from "framer-motion";
 function Projects() {
   const projectsData = [
     {
-      image: "/papajohns.png",
-      projectName: "Papa Johns",
+      image: "/be.png",
+      projectName: "Baku Electronics",
       projectTech: [
         "Next.js",
-        "Typescript",
         "Redux Toolkit",
         "Redux Persist",
-        "Next Auth"
+        "Formik",
+        "Axios",
+        "i18next",
       ],
       projectExternalLinks: {
-        github: "https://github.com/Qarayev23/papajohns-next.js",
-        externalLink: "https://papajohns-next-js.vercel.app",
+        github: "/",
+        externalLink: "https://new.bakuelectronics.az/",
       },
     },
     {
-      image: "/texnomart.png",
-      projectName: "Texnomart",
+      image: "/wemark.png",
+      projectName: "Wemark",
       projectTech: [
-        "React",
-        "Typescript",
-        "Redux Toolkit",
-        "RTK Query",
-        "SCSS",
+        "Next.js",
+        "Framer Motion",
+        "GSAP",
+        "Module SCSS",
       ],
       projectExternalLinks: {
-        github: "https://github.com/Qarayev23/texnomart",
-        externalLink: "https://texnomart-clone.netlify.app/",
+        github: "/",
+        externalLink: "https://wemark-six.vercel.app/",
+      },
+    },
+    {
+      image: "/alison.png",
+      projectName: "Alison Travel",
+      projectTech: [
+        "Next.js",
+        "next-intl",
+        "React Hook Form",
+        "Module SCSS"
+      ],
+      projectExternalLinks: {
+        github: "",
+        externalLink: "https://alison-travel.vercel.app/en",
       },
     },
     {
@@ -47,7 +61,7 @@ function Projects() {
         "SCSS"
       ],
       projectExternalLinks: {
-        github: "",
+        github: "/",
         externalLink: "https://gamboo.io",
       },
     },
@@ -59,10 +73,10 @@ function Projects() {
         "Redux Toolkit",
         "Context API",
         "React Bootstrap",
-        "CSS",
+        "SCSS",
       ],
       projectExternalLinks: {
-        github: "",
+        github: "/",
         externalLink: "https://app.gamboo.io/",
       },
     },
@@ -92,20 +106,6 @@ function Projects() {
       projectExternalLinks: {
         github: "",
         externalLink: "https://linex.az/az/",
-      },
-    },
-    {
-      image: "/alison-travel.png",
-      projectName: "Alison Travel",
-      projectTech: [
-        "HTML",
-        "SCSS",
-        "Javascript",
-        "Bootstrap",
-      ],
-      projectExternalLinks: {
-        github: "",
-        externalLink: "https://www.alisontravelgroup.com/",
       },
     },
     {
@@ -148,22 +148,9 @@ function Projects() {
         github: "",
         externalLink: "https://brainacademy.az/az",
       },
-    }, {
-      image: "/study-abroad.png",
-      projectName: "Study Abroad",
-      projectTech: [
-        "HTML",
-        "SCSS",
-        "Javascript",
-        "Bootstrap",
-      ],
-      projectExternalLinks: {
-        github: "",
-        externalLink: "http://study-abroad.surge.sh/",
-      },
-    },
-
+    }
   ];
+  
   return (
     <div className="projects" id="work">
       <motion.div

@@ -14,11 +14,24 @@ function Experience() {
 
   const expereinces = [
     {
-      name: "Labrin",
+      name: "Wemark",
       role: "Frontend Developer",
-      url: "https://labrin.net/",
-      start: "Nov 2021",
+      url: "https://wemark-six.vercel.app/",
+      start: "May 2024",
       end: "Present",
+      shortDescription: [
+        "Converting design files and integrate them into web pages.",
+        "Making code improvements to improve performance and fix errors.",
+        "Supporting existing projects.",
+        "Collaborating with team members to implement new feature developments.",
+      ],
+    },
+    {
+      name: "Baku Electronics",
+      role: "Frontend Developer",
+      url: "https://bakuelectronics.az/",
+      start: "Feb 2024",
+      end: "May 2024",
       shortDescription: [
         "Converting design files and integrate them into web pages.",
         "Making code improvements to improve performance and fix errors.",
@@ -30,8 +43,8 @@ function Experience() {
       name: "Gamboo",
       role: "Frontend Developer",
       url: "https://gamboo.io/",
-      start: "Jun 2022",
-      end: "Aug 2022",
+      start: "May 2022",
+      end: "Jul 2022",
       shortDescription: [
         "Creating a new landing page on Next.js.",
         "Supporting existing React app.",
@@ -40,11 +53,24 @@ function Experience() {
       ],
     },
     {
+      name: "Labrin",
+      role: "Frontend Developer",
+      url: "https://labrin.net/",
+      start: "Nov 2021",
+      end: "Jul 2022",
+      shortDescription: [
+        "Converting design files and integrate them into web pages.",
+        "Making code improvements to improve performance and fix errors.",
+        "Supporting existing projects.",
+        "Collaborating with team members to implement new feature developments.",
+      ],
+    },
+    {
       name: "Khan Buta Group",
       role: "Frontend Developer",
       url: "https://khanbutagroup.az/",
       start: "Sep 2021",
-      end: "Oct 2021",
+      end: "Nov 2021",
       shortDescription: [
         "Creating a mobile-first, responsive websites.",
         "Supporting existing projects.",
@@ -52,6 +78,7 @@ function Experience() {
       ],
     },
   ];
+
   return (
     <motion.div
       className="experience"
